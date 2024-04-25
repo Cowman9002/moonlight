@@ -1,0 +1,40 @@
+import math
+
+DEFAULT_PORT = 46512
+
+# GRAYSCALE = " .'`^\",:;Il!i><~+_-?][}{1)(|\/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$"
+GRAYSCALE = " `.-':_,^=;><+!rc*/z?sLTv)J7(|Fi{C}fI31tlu[neoZ5Yxjya]2ESwqkP6h9d4VpOGbUAKXHm8RD#$Bg0MNWQ%&@"
+# GRAYSCALE = " .-:|[#$"
+
+CLIENT_NETWORK_FREQUENCY = 1.0 / 10.0
+SERVER_NETWORK_FREQUENCY = 1.0 / 10.0
+
+PLAYER_RADIUS = 0.4
+PLAYER_STEP_HEIGHT = 0.25
+PLAYER_SNAP_HEIGHT = 0.05
+
+MONOCHROME = False
+
+# Results in a better experience, but input is still read when process is not active. I couldn't fix it
+ASYNC_INPUT = False
+
+COLOR_BLACK = 0
+COLOR_RED = 1
+COLOR_GREEN = 2
+COLOR_YELLOW = 3
+COLOR_BLUE = 4
+COLOR_MAGENTA = 5
+COLOR_CYAN = 6
+COLOR_WHITE = 7
+
+COLOR_BRIGHT_BLACK = 8
+COLOR_BRIGHT_RED = 9
+COLOR_BRIGHT_GREEN = 10
+COLOR_BRIGHT_YELLOW = 11
+COLOR_BRIGHT_BLUE = 12
+COLOR_BRIGHT_MAGENTA = 13
+COLOR_BRIGHT_CYAN = 14
+COLOR_BRIGHT_WHITE = 15
+
+NEAR_CLIP = 0.1
+FAR_CLIP = 16
